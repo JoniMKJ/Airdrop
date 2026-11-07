@@ -1,0 +1,13 @@
+name: Airdrop
+main: airdrop\Main
+version: 2.5.0
+api: 5.0.0
+author: Joni
+permissions:
+  airdrop.command:
+    default: op
+commands:
+  airdrop:
+    description: Gestiona los airdrops
+    usage: /airdrop <give|giveall|edit>
+    permission: airdrop.command

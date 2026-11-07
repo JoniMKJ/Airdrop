@@ -1,0 +1,32 @@
+# Edita el nombre del airdrop xdd
+nombre: "&l&dAirdrop"
+
+# Aqui  pones  lo  que quieras
+descripcion:
+  - "&7Colócalo para que caiga un cofre"
+  - "&7con recompensas desde el cielo."
+  - "&cNo se puede usar en el spawn."
+
+# Para que caiga
+delay-ticks: 40
+
+# Velocidad de caída 
+fall-speed: 0.2
+
+# Desde donde cae
+fall-height: 13
+
+# Para que pueda caer no obstaculos
+check-height: 20
+
+# Proteccion y configuracion de renstriccion
+protected-zone:
+  enabled: true
+  radius: 250
+
+loot:
+  mode: random
+  min-items: 1
+  max-items: 9
+  # El limite de recompensas  que recibe por airdrop
+  claim-limit: 3
